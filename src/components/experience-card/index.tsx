@@ -18,9 +18,9 @@ const ListItem = ({
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{time}</div>
-    <h3 className="font-semibold">{position}</h3>
-    <div className="mb-4 font-normal">
+    <h3 className="font-semibold break-words">{position}</h3>
+    <div className="my-0.5 text-xs break-words">{time}</div>
+    <div className="mb-4 font-normal break-words">
       <a href={companyLink} target="_blank" rel="noreferrer">
         {company}
       </a>
