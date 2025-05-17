@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'A new platform designed to help students at the University of British Columbia (UBC) discover and stay updated on campus events.',
           imageUrl:
-            'https://raw.githubusercontent.com/Pinnit-UBC/pinnit-ubc/refs/heads/dev/src/app/icon.png',
+            'https://avatars.githubusercontent.com/u/169808025?s=200&v=4',
           link: 'https://pinnitubc.com/',
         },
         {
@@ -53,7 +53,7 @@ const CONFIG = {
           description:
             'A comprehensive database for managing a basketball league, designed to handle various aspects of a basketball league including player statistics, team management, and scheduales.',
           imageUrl:
-           'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/ball.png',
+            'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/ball.png',
           link: 'https://github.com/ZaidlKhan/basketball_database',
         },
         {
@@ -61,7 +61,7 @@ const CONFIG = {
           description:
             "Greek Alphabet Recognition an application that identifies Greek letters drawn by the user, providing instant feedback on accuracy.",
           imageUrl:
-           'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/greek.webp',
+            'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/greek.webp',
           link: 'https://github.com/ZaidlKhan/greek_alphabet_recognition',
         },
       ],
@@ -81,7 +81,7 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', 
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
@@ -131,7 +131,7 @@ const CONFIG = {
     },
   ],
   certifications: [
- 
+
   ],
   educations: [
     {
@@ -158,7 +158,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
