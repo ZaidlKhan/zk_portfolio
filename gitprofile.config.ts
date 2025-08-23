@@ -96,7 +96,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Bpc2w6nwRFgcefTim-yW4rYNMQDkz8zY/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/10WRNyOg5nJ_vnHNsplv2iADPoefAIyv3/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -118,17 +118,17 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Designed and implemented a scalable, serverless simulation platform using AWS and React that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
+      company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, JSP, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
       position: 'Software Developement Engineer Intern - Amazon',
       from: 'May 2025',
-      to: 'Present',
+      to: 'July 2025',
       companyLink: '',
     },
     {
       company: 'Led cross-functional collaboration with 10+ stakeholders to develop a data-driven care pathway model, utilizing Python, Power BI, and Azure SQL to integrate and analyze healthcare data. Synthesized insights from 30+ research papers and policies to ensure compliance and inform actionable recommendations.',
       position: 'Data Analyst - Health of the Vulnerable',
       from: 'September 2024',
-      to: 'Present',
+      to: 'May 2025',
       companyLink: '',
     },
     {
