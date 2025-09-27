@@ -96,12 +96,12 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/10WRNyOg5nJ_vnHNsplv2iADPoefAIyv3/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/11CxLqDIcso-a33DKOY5w2wiQGK1xgF4_/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
     'Java',
-    'JavaScript',
+    'TypeScript',
     'C/C++',
     'Power BI',
     'Pandas',
@@ -109,6 +109,7 @@ const CONFIG = {
     'Scikit-Learn',
     'MySQL',
     'React.js',
+    'Angular',
     'Git',
     'Node.js',
     'MongoDB',
@@ -117,6 +118,13 @@ const CONFIG = {
     'Azure'
   ],
   experiences: [
+    {
+      company: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global License Compliance Platform (GLCP), streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
+      position: 'Full-Stack Software Developer Intern - SAP',
+      from: 'Sept 2025',
+      to: 'Present',
+      companyLink: '',
+    },
     {
       company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, JSP, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
       position: 'Software Developement Engineer Intern - Amazon',
