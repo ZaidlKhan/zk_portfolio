@@ -38,7 +38,7 @@ const CONFIG = {
             'A new platform designed to help students at the University of British Columbia (UBC) discover and stay updated on campus events.',
           imageUrl:
             'https://avatars.githubusercontent.com/u/169808025?s=200&v=4',
-          link: 'https://pinnitubc.com/',
+          link: 'https://mypinnit.com/',
         },
         {
           title: 'JustChat App',
