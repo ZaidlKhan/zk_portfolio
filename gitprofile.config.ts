@@ -53,8 +53,8 @@ const CONFIG = {
 
           ],
           screenshots: {
-            main: "src/assets/pinnit1.png",
-            mobile: "src/assets/pinnit2.png"
+            main: "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/pinnit1.png",
+            mobile: "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/pinnit2.png"
           }
         },
         {
@@ -75,10 +75,10 @@ const CONFIG = {
             "Found out polling is not the best way to implement a real-time messaging app 😅 (Didn't have many options though)",
           ],
           screenshots: [
-            "src/assets/1.png",
-            "src/assets/2.png",
-            "src/assets/3.png",
-            "src/assets/8.png",
+            "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/1.png",
+            "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/2.png",
+            "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/3.png",
+            "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/8.png",
           ]
         },
         {
