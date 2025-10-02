@@ -185,7 +185,7 @@ const CONFIG = {
       companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png"
     },
     {
-      company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, JSP, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
+      company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, React, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
       position: 'Software Developement Engineer Intern - Amazon',
       from: 'May 2025',
       to: 'July 2025',
