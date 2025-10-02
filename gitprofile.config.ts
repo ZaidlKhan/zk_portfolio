@@ -159,7 +159,7 @@ const CONFIG = {
     'Python',
     'Java',
     'TypeScript',
-    'Springboot',
+    'Spring',
     'C/C++',
     'Pandas',
     'Numpy',
