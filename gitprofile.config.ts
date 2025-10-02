@@ -99,7 +99,7 @@ const CONFIG = {
             "Using JFrame to create a GUI for the database",
             "Learned how to use Java to create a program that can interact with the database",
           ],
-          screenshots: "https://github-production-user-asset-6210df.s3.amazonaws.com/110517508/288958791-15ebb961-8418-4b38-a721-38c3c52ecc26.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251002T011509Z&X-Amz-Expires=300&X-Amz-Signature=82ddf105c8b0fb680980dec44819cc8ec0e6dac4fe4cccbd26d96a1e326dc81e&X-Amz-SignedHeaders=host"
+          screenshots: "https://raw.githubusercontent.com/ZaidlKhan/zk_portfolio/refs/heads/main/src/assets/bball.png"
         },
         {
           title: 'Greek Alphabet Recognition',
