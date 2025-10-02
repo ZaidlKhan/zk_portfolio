@@ -161,7 +161,6 @@ const CONFIG = {
     'TypeScript',
     'Springboot',
     'C/C++',
-    'Power BI',
     'Pandas',
     'Numpy',
     'Scikit-Learn',
