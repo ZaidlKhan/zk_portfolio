@@ -35,10 +35,27 @@ const CONFIG = {
         {
           title: 'Pinnit UBC',
           description:
-            'A new platform designed to help students at the University of British Columbia (UBC) discover and stay updated on campus events.',
+            'A new platform designed to help students at the University of British Columbia discover and stay updated on campus events.',
           imageUrl:
             'https://avatars.githubusercontent.com/u/169808025?s=200&v=4',
           link: 'https://mypinnit.com/',
+          technologies: ["Python", "React", "MongoDB", "Scikit-Learn", "Pandas", "Numpy", "SpaCy", "Google Vision API"],
+          keyFeatures: [
+            "Event classification with an accuracy of 95%",
+            "Extract event information from images and text",
+            "Automatically update website with new events",
+          ],
+          learnings: [
+            "Working with other developers and delivering my part to build a scalable and efficient platform",
+            "How to apply machine learning techniques learned in class (CPSC 330) to solve problems",
+            "Cleaning and pre-processing data is the hardest part of machine learning (Had to manually label 1500+ events for training a supervised learning model 💀)",
+            "Building pipelines to break down problem for data processing and machine learning",
+
+          ],
+          screenshots: {
+            main: "src/assets/pinnit1.png",
+            mobile: "src/assets/pinnit2.png"
+          }
         },
         {
           title: 'JustChat App',
@@ -47,6 +64,22 @@ const CONFIG = {
           imageUrl:
             'https://raw.githubusercontent.com/jchatapp/jchatapp-frontend/refs/heads/main/demo/logo.png',
           link: 'https://github.com/jchatapp/jchatapp-frontend',
+          technologies: ["JavaScript", "React Native", "Node.js", "Express.js", "MongoDB", "Instagram API"],
+          keyFeatures: [
+            "Real-time messaging for Instagram DMs",
+            "Keep up with your favorite accounts in real-time"
+          ],
+          learnings: [
+            "Learned how to build RESTful APIs with CRUD operations using Express.js and MongoDB",
+            "Parsing large JSON files for Instagram DMs",
+            "Found out polling is not the best way to implement a real-time messaging app 😅 (Didn't have many options though)",
+          ],
+          screenshots: [
+            "src/assets/1.png",
+            "src/assets/2.png",
+            "src/assets/3.png",
+            "src/assets/8.png",
+          ]
         },
         {
           title: 'Basketball League Database',
@@ -55,6 +88,18 @@ const CONFIG = {
           imageUrl:
             'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/ball.png',
           link: 'https://github.com/ZaidlKhan/basketball_database',
+          technologies: ["Java", "SQL", "Oracle", "JFrame"],
+          keyFeatures: [
+            "Track and edit team info such as roster, owner, arena, and sponsors",
+            "View and edit player info such as age, salary, and position",
+            "Can view stats for each season and game"
+          ],
+          learnings: [
+            "Learned how to use Oracle SQL to create a database and tables",
+            "Using JFrame to create a GUI for the database",
+            "Learned how to use Java to create a program that can interact with the database",
+          ],
+          screenshots: "https://github-production-user-asset-6210df.s3.amazonaws.com/110517508/288958791-15ebb961-8418-4b38-a721-38c3c52ecc26.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251002T011509Z&X-Amz-Expires=300&X-Amz-Signature=82ddf105c8b0fb680980dec44819cc8ec0e6dac4fe4cccbd26d96a1e326dc81e&X-Amz-SignedHeaders=host"
         },
         {
           title: 'Greek Alphabet Recognition',
@@ -63,6 +108,19 @@ const CONFIG = {
           imageUrl:
             'https://raw.githubusercontent.com/ZaidlKhan/basketball_database/refs/heads/main/demo/greek.webp',
           link: 'https://github.com/ZaidlKhan/greek_alphabet_recognition',
+          technologies: ["Jupyter Notebook", "Python", "TensorFlow", "Flask", "Scikit-Learn", "Pandas", "Numpy"],
+          keyFeatures: [
+            "The user draws the required letter and the app identifies it",
+            "The user is able to add their own letters to the dataset",
+          ],
+          learnings: [
+            "How to implement real-time canvas drawing with touch and mouse events",
+            "Image preprocessing techniques for machine learning model input",
+          ],
+          screenshots: [
+            "https://raw.githubusercontent.com/ZaidlKhan/greek_alphabet_recognition/main/demo.gif",
+            "https://raw.githubusercontent.com/ZaidlKhan/greek_alphabet_recognition/main/demo1.gif"
+          ]
         },
       ],
     },
@@ -102,6 +160,7 @@ const CONFIG = {
     'Python',
     'Java',
     'TypeScript',
+    'Springboot',
     'C/C++',
     'Power BI',
     'Pandas',
@@ -124,12 +183,14 @@ const CONFIG = {
       from: 'Sept 2025',
       to: 'Present',
       companyLink: '',
+      companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png"
     },
     {
       company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, JSP, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
       position: 'Software Developement Engineer Intern - Amazon',
       from: 'May 2025',
       to: 'July 2025',
+      companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UK5vSjqngN6SDUoKvRUR1kFmWtdyguxh6b6mg6mgluQx_EM9RJ6RzwFDs_kljVG9F04&usqp=CAU",
       companyLink: '',
     },
     {
@@ -138,6 +199,7 @@ const CONFIG = {
       from: 'September 2024',
       to: 'May 2025',
       companyLink: '',
+      companyLogo: "https://i.postimg.cc/gJK53Wcn/HOV-logo.png"
     },
     {
       company: 'Engineered a data automation pipeline using Python to extract real-time network usage data from the Starlink API across 60+ Nunavut locations. Optimized data transformation and storage with Azure Data Factory and reduced costs by leveraging Azure Blob Storage over SQL databases. Configured MySQL with optimized schemas for fast queries and large-scale data handling. Developed interactive Power BI dashboards that provided actionable insights for strategic business decisions.',
@@ -145,6 +207,7 @@ const CONFIG = {
       from: 'April 2024',
       to: 'August 2024',
       companyLink: '',
+      companyLogo: "https://qview.ssicanada.com/channels/Qiniq/.custom/img/logo.png?v=2"
     },
   ],
   certifications: [

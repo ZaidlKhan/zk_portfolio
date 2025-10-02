@@ -24,6 +24,13 @@ export interface SanitizedExternalProject {
   description?: string;
   imageUrl?: string;
   link: string;
+  technologies?: string[];
+  keyFeatures?: string[];
+  learnings?: string[];
+  screenshots?: {
+    main?: string;
+    mobile?: string;
+  } | string[] | string;
 }
 
 export interface SanitizedExternalProjects {
@@ -75,6 +82,10 @@ export interface SanitizedExperience {
   from: string;
   to: string;
   companyLink?: string;
+  companyLogo?: string;
+  description?: string;
+  achievements?: string[];
+  technologies?: string[];
 }
 
 export interface SanitizedCertification {
