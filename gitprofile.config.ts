@@ -153,8 +153,7 @@ const CONFIG = {
     email: 'zkhan1065@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/11CxLqDIcso-a33DKOY5w2wiQGK1xgF4_/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: ''// Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
