@@ -71,7 +71,7 @@ const CONFIG = {
           ],
           learnings: [
             "Learned how to build RESTful APIs with CRUD operations using Express.js and MongoDB",
-            "Parsing large JSON files for Instagram DMs",
+            "Parsing large JSON files to retrieve messages for Instagram DMs",
             "Found out polling is not the best way to implement a real-time messaging app 😅 (Didn't have many options though)",
           ],
           screenshots: [
