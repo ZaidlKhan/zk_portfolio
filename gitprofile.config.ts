@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Pinnit UBC',
           description:
-            'A new platform designed to help students at the University of British Columbia discover and stay updated on campus events.',
+            'A new platform designed to help students at the University of British Columbia discover and stay updated on campus events. My role was to develop a method to automate website updates with new posts, as the process had become extremely tedious.',
           imageUrl:
             'https://avatars.githubusercontent.com/u/169808025?s=200&v=4',
           link: 'https://mypinnit.com/',
