@@ -7,7 +7,6 @@ const ListItem = ({
   position,
   shortDescription,
   fullDescription,
-  companyLink,
   logo,
   technologies,
   learnings,
