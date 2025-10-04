@@ -177,11 +177,19 @@ const CONFIG = {
   experiences: [
     {
       company: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global License Compliance Platform (GLCP), streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
+      description: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global License Compliance Platform (GLCP), streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
       position: 'Full-Stack Software Developer Intern - SAP',
       from: 'Sept 2025',
       to: 'Present',
       companyLink: '',
-      companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png"
+      companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png",
+      technologies: ['Angular', 'Java', 'Groovy', 'Spring Framework', 'TypeScript', 'REST APIs', 'SQL'],
+      learnings: [
+        'How to design efficient, modular front-end components in Angular that integrate cleanly with Java Spring services.',
+        'How internal tools and CI/CD pipelines are managed in large organizations to support continuous deployment.',
+        'Collaborating with global teams across different time zones'
+      ],
+      improvements: []
     },
     {
       company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, React, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
@@ -190,6 +198,16 @@ const CONFIG = {
       to: 'July 2025',
       companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UK5vSjqngN6SDUoKvRUR1kFmWtdyguxh6b6mg6mgluQx_EM9RJ6RzwFDs_kljVG9F04&usqp=CAU",
       companyLink: '',
+      technologies: ['React', 'Java', 'Spring Framework', 'TypeScript', 'REST APIs', 'AWS', 'AWS State Machines', 'AWS SNS Function', 'CI'],
+      learnings: [
+        "Agile practices, such as daily stand-ups and sprint planning, were critical for effective collaboration.",
+        "The value of observability, metrics and logs were as critical as functionality.",
+        "How to communicate design tradeoffs effectively within fast-paced engineering teams.",
+      ],
+      improvements: [
+        "Focus earlier on unit test coverage to streamline later validation.",
+        "Document assumptions and data flows earlier to accelerate review cycles."
+      ]
     },
     {
       company: 'Led cross-functional collaboration with 10+ stakeholders to develop a data-driven care pathway model, utilizing Python, Power BI, and Azure SQL to integrate and analyze healthcare data. Synthesized insights from 30+ research papers and policies to ensure compliance and inform actionable recommendations.',
@@ -197,7 +215,17 @@ const CONFIG = {
       from: 'September 2024',
       to: 'May 2025',
       companyLink: '',
-      companyLogo: "https://i.postimg.cc/gJK53Wcn/HOV-logo.png"
+      companyLogo: "https://i.postimg.cc/gJK53Wcn/HOV-logo.png",
+      technologies: ['Python', 'Power BI', 'Power BI', 'Azure SQL'],
+      learnings: [
+        'How to synthesize complex public health data into actionable insights.',
+        'The importance of clear stakeholder communication when defining research scope.',
+        'How data visualization drives understanding and decision-making among non-technical teams.',
+      ],
+      improvements: [
+        'Incorporate interactive dashboards for more dynamic data exploration.',
+        'Allocate more time for validating assumptions behind the care pathway model.'
+      ]
     },
     {
       company: 'Engineered a data automation pipeline using Python to extract real-time network usage data from the Starlink API across 60+ Nunavut locations. Optimized data transformation and storage with Azure Data Factory and reduced costs by leveraging Azure Blob Storage over SQL databases. Configured MySQL with optimized schemas for fast queries and large-scale data handling. Developed interactive Power BI dashboards that provided actionable insights for strategic business decisions.',
@@ -205,7 +233,16 @@ const CONFIG = {
       from: 'April 2024',
       to: 'August 2024',
       companyLink: '',
-      companyLogo: "https://qview.ssicanada.com/channels/Qiniq/.custom/img/logo.png?v=2"
+      companyLogo: "https://qview.ssicanada.com/channels/Qiniq/.custom/img/logo.png?v=2",
+      technologies: ['Python', 'Power BI', 'Azure Data Factory', 'Azure Blob Storage', 'MySQL', 'Terraform'],
+      learnings: [
+        'How to design and deploy end-to-end data pipelines in production using Azure.',
+        "How infrastructure decisions (like storage choices) directly impact cost and performance."
+      ],
+      improvements: [
+        "Introduce more detailed logging and data validation layers from the start.",
+        "Test alternative ETL architectures (e.g., streaming vs batch) earlier in development."
+      ]
     },
   ],
   certifications: [

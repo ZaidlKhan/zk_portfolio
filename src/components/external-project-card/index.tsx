@@ -66,7 +66,7 @@ const ExternalProjectCard = ({
     return externalProjects.map((item, index) => (
       <div className="card shadow-lg compact bg-base-100" key={index}>
         <div className="p-4 w-full">
-          <div className="flex items-center gap-4">
+          <div className="flex items-start gap-4">
             {item.imageUrl && (
               <div className="avatar flex-shrink-0">
                 <div className="w-16 h-16 mask mask-squircle">
@@ -86,11 +86,11 @@ const ExternalProjectCard = ({
               <h3 className="font-semibold text-lg text-base-content truncate">
                 {item.title}
               </h3>
-              <p className="text-base-content text-opacity-60 text-sm truncate">
+              <p className={`text-base-content text-opacity-60 text-sm ${expandedProject === index ? '' : 'truncate'}`}>
                 {item.description}
               </p>
             </div>
-            <div className="flex-shrink-0 flex items-center gap-2">
+            <div className="flex-shrink-0 flex items-start gap-2 mt-4">
               <button
                 className="btn btn-sm btn-outline"
                 onClick={() => {
@@ -134,18 +134,9 @@ const ExternalProjectCard = ({
           {expandedProject === index && (
             <div className="mt-4 pt-4 border-t border-base-300">
               <div className="space-y-6">
-                {/* Project Overview */}
-                <div>
-                  <h4 className="font-semibold text-lg text-base-content mb-3">Project Overview</h4>
-                  <p className="text-base-content text-opacity-80 leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
-
                 {/* Check if screenshots is a single string - special layout */}
                 {typeof item.screenshots === 'string' ? (
                   <div>
-                    <h4 className="font-semibold text-lg text-base-content mb-3">Project Overview</h4>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                       {/* Left side - Image */}
                       <div>
@@ -193,7 +184,6 @@ const ExternalProjectCard = ({
                 ) : Array.isArray(item.screenshots) && item.screenshots.length === 2 ? (
                   /* Special layout for 2 vertical mobile images (Greek alphabet recognition) */
                   <div>
-                    <h4 className="font-semibold text-lg text-base-content mb-3">Project Overview</h4>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                       {/* Left side - 2 Mobile Images */}
                       <div className="grid grid-cols-2 gap-3">

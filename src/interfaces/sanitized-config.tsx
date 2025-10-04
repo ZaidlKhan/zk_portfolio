@@ -86,6 +86,8 @@ export interface SanitizedExperience {
   description?: string;
   achievements?: string[];
   technologies?: string[];
+  learnings?: string[];
+  improvements?: string[];
 }
 
 export interface SanitizedCertification {
