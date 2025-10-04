@@ -195,7 +195,7 @@ const CONFIG = {
       company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, React, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
       position: 'Software Developement Engineer Intern - Amazon',
       from: 'May 2025',
-      to: 'July 2025',
+      to: 'Jul 2025',
       companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UK5vSjqngN6SDUoKvRUR1kFmWtdyguxh6b6mg6mgluQx_EM9RJ6RzwFDs_kljVG9F04&usqp=CAU",
       companyLink: '',
       technologies: ['React', 'Java', 'Spring Framework', 'TypeScript', 'REST APIs', 'AWS', 'AWS State Machines', 'AWS SNS Function'],
@@ -212,7 +212,7 @@ const CONFIG = {
     {
       company: 'Led cross-functional collaboration with 10+ stakeholders to develop a data-driven care pathway model, utilizing Python, Power BI, and Azure SQL to integrate and analyze healthcare data. Synthesized insights from 30+ research papers and policies to ensure compliance and inform actionable recommendations.',
       position: 'Data Analyst - Health of the Vulnerable',
-      from: 'September 2024',
+      from: 'Sept 2024',
       to: 'May 2025',
       companyLink: '',
       companyLogo: "https://i.postimg.cc/gJK53Wcn/HOV-logo.png",
@@ -230,8 +230,8 @@ const CONFIG = {
     {
       company: 'Engineered a data automation pipeline using Python to extract real-time network usage data from the Starlink API across 60+ Nunavut locations. Optimized data transformation and storage with Azure Data Factory and reduced costs by leveraging Azure Blob Storage over SQL databases. Configured MySQL with optimized schemas for fast queries and large-scale data handling. Developed interactive Power BI dashboards that provided actionable insights for strategic business decisions.',
       position: 'Data Engineering Intern - Qiniq',
-      from: 'April 2024',
-      to: 'August 2024',
+      from: 'Apr 2024',
+      to: 'Aug 2024',
       companyLink: '',
       companyLogo: "https://qview.ssicanada.com/channels/Qiniq/.custom/img/logo.png?v=2",
       technologies: ['Python', 'Power BI', 'Azure Data Factory', 'Azure Blob Storage', 'MySQL', 'Terraform'],
