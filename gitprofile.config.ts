@@ -198,7 +198,7 @@ const CONFIG = {
       to: 'Jul 2025',
       companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UK5vSjqngN6SDUoKvRUR1kFmWtdyguxh6b6mg6mgluQx_EM9RJ6RzwFDs_kljVG9F04&usqp=CAU",
       companyLink: '',
-      technologies: ['React', 'Java', 'Spring Framework', 'TypeScript', 'REST APIs', 'AWS', 'AWS State Machines', 'AWS SNS Function'],
+      technologies: ['React', 'Java', 'Spring Framework', 'TypeScript', 'REST APIs', 'AWS', 'AWS State Machines', 'AWS SNS Function', "DynamoDB", "S3", "CI/CD"],
       learnings: [
         "Agile practices, such as daily stand-ups and sprint planning, were critical for effective collaboration.",
         "The value of observability, metrics and logs were as critical as functionality.",
