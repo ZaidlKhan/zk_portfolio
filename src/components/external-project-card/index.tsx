@@ -65,7 +65,18 @@ const ExternalProjectCard = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <div className="card shadow-lg compact bg-base-100" key={index}>
-        <div className="p-4 w-full">
+        <div 
+          className="p-4 w-full cursor-pointer hover:bg-base-200/30 transition-colors"
+          onClick={() => setExpandedProject(expandedProject === index ? null : index)}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              setExpandedProject(expandedProject === index ? null : index);
+            }
+          }}
+        >
           <div className="flex items-start gap-4">
             {item.imageUrl && (
               <div className="avatar flex-shrink-0">
@@ -93,7 +104,8 @@ const ExternalProjectCard = ({
             <div className="flex-shrink-0 flex items-start gap-2 mt-4">
               <button
                 className="btn btn-sm btn-outline"
-                onClick={() => {
+                onClick={(e) => {
+                  e.stopPropagation();
                   try {
                     if (googleAnalyticId) {
                       ga.event('Click External Project', {
@@ -108,10 +120,7 @@ const ExternalProjectCard = ({
               >
                 View Project
               </button>
-              <button
-                className="btn btn-sm btn-ghost"
-                onClick={() => setExpandedProject(expandedProject === index ? null : index)}
-              >
+              <div className="btn btn-sm btn-ghost pointer-events-none">
                 <svg
                   className={`w-4 h-4 transition-transform ${expandedProject === index ? 'rotate-180' : ''
                     }`}
@@ -126,7 +135,7 @@ const ExternalProjectCard = ({
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
-              </button>
+              </div>
             </div>
           </div>
 

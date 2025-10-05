@@ -28,61 +28,66 @@ const ListItem = ({
 
   return (
     <li className="card shadow-lg compact bg-base-100 mb-3">
-      <div className="p-4 w-full">
-        <button
-          type="button"
-          onClick={() => setOpen((o) => !o)}
-          className="w-full text-left"
-        >
-          <div className="flex gap-4">
-            {logo && (
-              <div className="avatar flex-shrink-0">
-                <div className="w-16 h-16 mask mask-squircle">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={logo}
-                    alt="Company logo"
-                    className="w-full h-full object-contain bg-white p-2"
-                    loading="lazy"
-                  />
-                </div>
+      <div 
+        className="p-4 w-full cursor-pointer hover:bg-base-200/30 transition-colors"
+        onClick={(e) => {
+          e.stopPropagation();
+          setOpen((o) => !o);
+        }}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            setOpen((o) => !o);
+          }
+        }}
+      >
+        <div className="flex gap-4">
+          {logo && (
+            <div className="avatar flex-shrink-0">
+              <div className="w-16 h-16 mask mask-squircle">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={logo}
+                  alt="Company logo"
+                  className="w-full h-full object-contain bg-white p-2"
+                  loading="lazy"
+                />
               </div>
-            )}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center justify-between gap-3 mb-1">
-                <h3 className="font-semibold text-lg text-base-content">
-                  {position}
-                </h3>
-                <div className="text-xs text-base-content opacity-70 whitespace-nowrap">
-                  {time}
-                </div>
-              </div>
-              <p className={`text-base-content text-opacity-60 text-sm ${open ? '' : 'truncate'}`}>
-                {open && fullDescription ? fullDescription : shortDescription}
-              </p>
             </div>
-            <div className="flex-shrink-0">
-              <button
-                type="button"
-                className="btn btn-sm btn-ghost"
+          )}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center justify-between gap-3 mb-1">
+              <h3 className="font-semibold text-lg text-base-content">
+                {position}
+              </h3>
+              <div className="text-xs text-base-content opacity-70 whitespace-nowrap">
+                {time}
+              </div>
+            </div>
+            <p className={`text-base-content text-opacity-60 text-sm ${open ? '' : 'truncate'}`}>
+              {open && fullDescription ? fullDescription : shortDescription}
+            </p>
+          </div>
+          <div className="flex-shrink-0">
+            <div className="btn btn-sm btn-ghost pointer-events-none">
+              <svg
+                className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
             </div>
           </div>
-        </button>
+        </div>
         {open && (
           <div className="mt-4 pt-4 border-t border-base-300">
             <div className="space-y-4">
