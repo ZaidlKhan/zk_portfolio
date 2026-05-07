@@ -176,14 +176,14 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global License Compliance Platform (GLCP), streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
-      description: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global License Compliance Platform (GLCP), streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
+      company: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global Technology Legal Compliance team, streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
+      description: 'Developed and maintained Angular front-end components and Java Spring back-end services for the Global Technology Legal Compliance team, streamlining compliance workflows for 500+ analysts worldwide. Designed and delivered scalable full-stack features across storage, REST APIs, and UI with a focus on security, performance, and user experience.',
       position: 'Full-Stack Software Developer Intern - SAP',
       from: 'Sept 2025',
-      to: 'Present',
+      to: 'Apr 2026',
       companyLink: '',
       companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png",
-      technologies: ['Angular', 'Java', 'Groovy', 'Spring Framework', 'TypeScript', 'REST APIs', 'SQL'],
+      technologies: ['Angular', 'Java', 'Groovy', 'Spring Framework', 'TypeScript', 'REST APIs', 'SQL', 'Kafka', 'Jenkins', 'Docker', 'CI'],
       learnings: [
         'How to design efficient, modular front-end components in Angular that integrate cleanly with Java Spring services.',
         'How internal tools and CI/CD pipelines are managed in large organizations to support continuous deployment.',
@@ -193,7 +193,7 @@ const CONFIG = {
     },
     {
       company: 'Designed and implemented a scalable, serverless simulation platform using several AWS services, React, and the Spring Framework, that significantly reduced test time, enabled asynchronous model evaluation, and enhanced user experience with real-time tracking and automated notifications.',
-      position: 'Software Developement Engineer Intern - Amazon',
+      position: 'Software Development Engineer Intern - Amazon',
       from: 'May 2025',
       to: 'Jul 2025',
       companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UK5vSjqngN6SDUoKvRUR1kFmWtdyguxh6b6mg6mgluQx_EM9RJ6RzwFDs_kljVG9F04&usqp=CAU",
