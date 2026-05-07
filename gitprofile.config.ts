@@ -183,7 +183,7 @@ const CONFIG = {
       to: 'Apr 2026',
       companyLink: '',
       companyLogo: "https://images.seeklogo.com/logo-png/46/2/sap-logo-png_seeklogo-465583.png",
-      technologies: ['Angular', 'Java', 'Groovy', 'Spring Framework', 'TypeScript', 'REST APIs', 'SQL', 'Kafka', 'Jenkins', 'Docker', 'CI'],
+      technologies: ['Angular', 'Java', 'Groovy', 'Spring Framework', 'TypeScript', 'REST APIs', 'SQL', 'Kafka', 'Jenkins', 'Docker', 'CI/CD'],
       learnings: [
         'How to design efficient, modular front-end components in Angular that integrate cleanly with Java Spring services.',
         'How internal tools and CI/CD pipelines are managed in large organizations to support continuous deployment.',
